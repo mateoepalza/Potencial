@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
   </head>
   <body>
+    <div id="alert" ><p>Por favor, ingrese todo los campos</p> </div>
     <div id="wrapp">
       <div class="inside-wrap" id="top-wrapp">
         <div class="info" id="info-div">
@@ -13,18 +14,18 @@
         </div>
         <div class="info" id="radioMay-div">
           <label for="radioMa">Ingrese R de la esfera</label>
-          <input type="text" id="radioMa" name="radioMay" placeholder="Ingrese el valor en metros">
+          <div><input type="text" id="radioMa" name="radioMay" placeholder="Ingrese el valor de R"> <span>&nbsp; m</span></div>
         </div>
         <div class="info" id="radioMen-div">
           <label for="radioMe">Ingrese r de la esfera</label>
-          <input type="text" id="radioMe" name="radioMen" placeholder="Ingrese el valor en metros" required>
+          <div><input type="text" id="radioMe" name="radioMen" placeholder="Ingrese el valor de r" required><span>&nbsp; m</span></div>
         </div>
         <div class="info" id="carga-div">
           <label for="carga">Ingrese q de la esfera</label>
-          <input type="text" id="carga" name="texto" placeholder="Ingrese el valor en nancoulumb">
+          <div><input type="text" id="carga" name="texto" placeholder="Ingrese el valor de la carga"><span>&nbsp; x10<sup>-9</sup></span></div>
         </div>
         <div class="info" id="carga-div">
-          <button type="submit" id="boton" name="button">Enviar</button>
+          <button type="submit" id="boton" name="button">Calcular</button>
         </div>
       </div>
       <div class="inside-wrap" id="bottom-wrapp">
